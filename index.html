@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Virtual Keyboard </h1>
+    <section>
+        <h3>Features</h3>
+        <ul class="ul">
+            <li>Easy to Integrate</li>
+            <li>Responsive</li>
+            <li>Vanilla JS (<stong> no libraries required</stong>) </li>
+        </ul>
+    </section>
+
+    <textarea class="use-keyboard-input" placeholder="Type something..."></textarea>
+
+    <div class="keyboard">
+        <div class="keyboard__keys">
+            <button type="button" class="keyboard__key char">1</button>
+            <button type="button" class="keyboard__key char">2</button>
+            <button type="button" class="keyboard__key char">3</button>
+            <button type="button" class="keyboard__key char">4</button>
+            <button type="button" class="keyboard__key char">5</button>
+            <button type="button" class="keyboard__key char">6</button>
+            <button type="button" class="keyboard__key char">7</button>
+            <button type="button" class="keyboard__key char">8</button>
+            <button type="button" class="keyboard__key char">9</button>
+            <button type="button" class="keyboard__key char">0</button>
+            <button type="button" class="keyboard__key keyboard__key--wide" id="backspace">
+                <i class="material-icons">backspace</i>
+            </button>
+            <br>
+            <button type="button" class="keyboard__key alpha">q</button>
+            <button type="button" class="keyboard__key alpha">w</button>
+            <button type="button" class="keyboard__key alpha">e</button>
+            <button type="button" class="keyboard__key alpha">r</button>
+            <button type="button" class="keyboard__key alpha">t</button>
+            <button type="button" class="keyboard__key alpha">y</button>
+            <button type="button" class="keyboard__key alpha">u</button>
+            <button type="button" class="keyboard__key alpha">i</button>
+            <button type="button" class="keyboard__key alpha">o</button>
+            <button type="button" class="keyboard__key alpha">p</button><br>
+            <button type="button" class="keyboard__key keyboard__key--wide keyboard__key--activatable"><i
+                    class="material-icons">keyboard_capslock</i></button>
+            <button type="button" class="keyboard__key alpha">a</button>
+            <button type="button" class="keyboard__key alpha">s</button>
+            <button type="button" class="keyboard__key alpha">d</button>
+            <button type="button" class="keyboard__key alpha">f</button>
+            <button type="button" class="keyboard__key alpha">g</button>
+            <button type="button" class="keyboard__key alpha">h</button>
+            <button type="button" class="keyboard__key alpha">j</button>
+            <button type="button" class="keyboard__key alpha">k</button>
+            <button type="button" class="keyboard__key alpha">l</button>
+            <button type="button" class="keyboard__key keyboard__key--wide" id="enter"><i
+                    class="material-icons">keyboard_return</i></button><br>
+            <button type="button" class="keyboard__key alpha keyboard__key--wide keyboard__key--dark"
+                id="done">done</button>
+            <button type="button" class="keyboard__key alpha">z</button>
+            <button type="button" class="keyboard__key alpha">x</button>
+            <button type="button" class="keyboard__key alpha">c</button>
+            <button type="button" class="keyboard__key alpha">v</button>
+            <button type="button" class="keyboard__key alpha">b</button>
+            <button type="button" class="keyboard__key alpha">n</button>
+            <button type="button" class="keyboard__key alpha">m</button>
+            <button type="button" class="keyboard__key char ">,</button>
+            <button type="button" class="keyboard__key char">.</button>
+            <button type="button" class="keyboard__key char">?</button><br>
+            <button type="button" class="keyboard__key keyboard__key--extra-wide" id="spacebar"><i
+                    class="material-icons">space_bar</i></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
